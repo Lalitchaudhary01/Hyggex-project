@@ -1,6 +1,8 @@
 import React from "react";
 import Heading from "./Heading";
 import Card from "./Card";
+import Footer from "./Footer";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
         Relations and Functions ( Mathematics )
       </div>
       <Card />
+      <Footer />
+      <Faq />
     </>
   );
 };
